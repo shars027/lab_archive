@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("gradient.svg");
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+	div#header {
+		position: fixed;
+		width:100%;
+		height: 40%;
+		font-family: 'Nova Mono', monospace;
+
+		text-transform: uppercase;
+	}
+
+		a#nav {
+			position: fixed;
+			right: 0;
+			margin: 20px;
+			
+			font-size: 2.5vw;
+			line-height: 2.5vw;
+			height: 2.5vw;
+
+			text-decoration: none;
+			color: black;
+			border-radius: 10px;
+			background-color: white;
+
+			padding: 10px;
+
+			z-index: 2;
+		}
+
+
+
+	div#code {
+		position: fixed;
+		left: 2em;
+		right: 2em;
+		top: 2em;
+		bottom: 2em;
+
+		overflow: hidden;
+		text-align: justify;
+		font-size: 1vw;
+
+		z-index: 1;
+
+		color: black;
+	}
+
+	div#project {
+		position: absolute;
+		height: 60%;
+		bottom: 0;
+		white-space: nowrap;
+		overflow: auto;
+	}
+
+
+img {
+	position: relative;
+	top: 5%;
+
+	max-width: 90%;
+    max-height: 90%;
+
+	margin-left: 20px;
+	margin-right: 20px;
+}
